@@ -1,28 +1,16 @@
-![](media/image1.png){width="1.6395833333333334in"
-height="0.9798611111111111in"}
+# Slac + Zapier + Honeycode Integration example
 
-**\
-**
+## Table of Contents 
 
-# Table of Contents {#table-of-contents .TOC-Heading}
+[1. Overview](#overview)
 
-[Overview 3](#overview)
+[2. Instantiate "Simple To-Do" template in Honeycode](#instantiate-simple-to-do-template-in-honeycode)
 
-[Lab 6: Slack + Zapier + Honeycode 4](#lab-6-slack-zapier-honeycode)
+[3. Short overview on Triggers, Actions and Webhooks](#short-overview-on-triggers-actions-and-webhooks)
 
-[Instantiate "Simple To-Do" template in Honeycode
-4](#instantiate-simple-to-do-template-in-honeycode)
+[4. Use Zapier to Integrate Slack and Honeycode](#use-zapier-to-integrate-slack-and-honeycode)
 
-[Short overview on Triggers, Actions and Webhooks
-5](#short-overview-on-triggers-actions-and-webhooks)
-
-[Use Zapier to Integrate Slack and Honeycode
-6](#use-zapier-to-integrate-slack-and-honeycode)
-
-[Testing the Slack to Honeycode integration
-12](#testing-the-slack-to-honeycode-integration)
-
-#  {#section .TOC-Heading}
+[5. Testing the Slack to Honeycode integration](#testing-the-slack-to-honeycode-integration)
 
 ## Overview
 
@@ -74,7 +62,7 @@ My Drive: references to text or non-actionable elements in your screen.
 
 FILTER: Inline code, keywords or formulas.
 
-## Lab 6: Slack + Zapier + Honeycode
+# Lab 6: Slack + Zapier + Honeycode
 
 In this lab you will connect Slack with the Simple TODO app in Honeycode
 using Zapier. You will be able to take any message sent in Slack and add
@@ -86,7 +74,7 @@ This lab will assume that you have the pre requisites and in this
 account we will use <honeycode01@danieltet.com> as the sample email with
 accounts in both Honeycode and Slack.
 
-### Instantiate "Simple To-Do" template in Honeycode 
+## Instantiate "Simple To-Do" template in Honeycode 
 
 Instead of creating a Honeycode application from scratch we will use the
 Simple ToDo template and add new tasks in this workbook from Slack.
@@ -109,14 +97,12 @@ Once you've created the Workbook and the App you can move to the next
 step. We will revisit the Tasks table in a later step to ensure the
 tasks from Slack makes its way into this table.
 
-**\
-**
 
-### Short overview on Triggers, Actions and Webhooks
+## Short overview on Triggers, Actions and Webhooks
 
 A Zap is a workflow within Zapier that can connect two or more apps. A
 Trigger initiates an action (or Zap in Zapier terms). An "Action"
-
+```
 +----------------+----------------+----------------+----------------+
 |                | Honeycode in   | Zapier itself  | Other          |
 |                | Zapier         |                | third-party    |
@@ -167,14 +153,14 @@ Trigger initiates an action (or Zap in Zapier terms). An "Action"
 |                | webhook calls  |                |                |
 |                | at this time.  |                |                |
 +----------------+----------------+----------------+----------------+
-
+```
 You can read more about these Zapier concepts here:
 
 -   <https://zapier.com/help/create/basics/learn-key-concepts-in-zapier>
 
 -   <https://zapier.com/help/create/code-webhooks/trigger-zaps-from-webhooks>
 
-### Use Zapier to Integrate Slack and Honeycode
+## Use Zapier to Integrate Slack and Honeycode
 
 In this section we will use Zapier to setup a Slack trigger, and a
 Honeycode action; the overall effect will be that any specific message
@@ -291,7 +277,7 @@ Here are the steps to follow
     > height="0.9671828521434821in"}\
     > (Zapier) (Slack)
 
-### Testing the Slack to Honeycode integration
+## Testing the Slack to Honeycode integration
 
 To test that messages from slack make it as tasks in your Honeycode app
 do the following steps:
