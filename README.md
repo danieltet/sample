@@ -7,8 +7,8 @@ In this library you will see illustrated useful patterns (UP), Key Concepts (KC)
 
 Useful patterns, attempt to encapsulate one single recipe that you can use in many of your projects. It is more than an out of the box capability, and less than a full solution. You can use many patterns when you design apps, and even combine patterns for more amazing applications.
 
+* [UP002-Role-Based-Access](Patterns/UP002-Role-Based-Access)
 * [UP003-Next-Screen-Wizard](Patterns/UP003-Next-Screen-Wizard)
-* [UP009-Role-Based-Access](Patterns/UP009-Role-Based-Access)
 
 ## Demonstration Labs (DL)
 
